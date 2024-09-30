@@ -1,0 +1,19 @@
+{
+  "name": "aurel/mini-mvc-php-js-v0",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./",
+      "App\\Controller\\": "/controller",
+      "App\\Model\\": "/model",
+      "App\\Classes\\": "/classes",
+      "App\\Tests\\": "/tests"
+    }
+  },
+  "authors": [
+    {
+      "name": "Aurélie PREAUD",
+      "email": "aurelie.preaud@laplateforme.io"
+    }
+  ],
+  "require": {}
+}
