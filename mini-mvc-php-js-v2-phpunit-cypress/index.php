@@ -6,8 +6,8 @@ use App\Classes\Routeur;
 $root = $_SERVER['DOCUMENT_ROOT'];
 $host = $_SERVER['HTTP_HOST'];
 
-define('HOST', 'http://'.$host.'/MyBasics-Tests/mini-mvc-php-js-v2-phpunit -cypress/');
-define('ROOT', $root.'/MyBasics-Tests/mini-mvc-php-js-v2-phpunit -cypress/');
+define('HOST', 'http://'.$host.'/MyBasics-Tests/mini-mvc-php-js-v2-phpunit-cypress/');
+define('ROOT', $root.'/MyBasics-Tests/mini-mvc-php-js-v2-phpunit-cypress/');
 define('ASSETS', HOST.'assets/'); 
 
 // Ici on charge le routeur. C'est le coeur de l'application

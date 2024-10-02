@@ -4,7 +4,7 @@ describe("Test 1 : Le contenu demandé s'affiche bien sur la page d'accueil", ()
       "http://localhost/MyBasics-Tests/mini-mvc-php-js-v2-phpunit -cypress/home"
     );
 
-    cy.contains("seb");
+    cy.contains("lily");
   });
 });
 

@@ -21,7 +21,7 @@ class HomeTest extends \PHPUnit\Framework\TestCase{
         public function testUserListIsRendered()
     {
         // Simule une requête HTTP pour récupérer le HTML de la page "home"
-        $url = 'http://localhost/MyBasics-Tests/mini-mvc-php-js-v2-phpunit -cypress/home';
+        $url = 'http://localhost/MyBasics-Tests/mini-mvc-php-js-v2-phpunit-cypress/home';
         $html = file_get_contents($url);
 
         // Vérifie que le HTML contient le pseudo d'un utilisateur spécifique
