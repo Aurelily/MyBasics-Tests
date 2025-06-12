@@ -1,17 +1,17 @@
 describe("Test 1 : Le contenu demandé s'affiche bien sur la page d'accueil", () => {
-  it('finds the content "seb"', () => {
+  it('finds the content "yeye"', () => {
     cy.visit(
-      "http://localhost/MyBasics-Tests/mini-mvc-php-js-v2-phpunit -cypress/home"
+      "http://localhost/MyBasics-Tests/mini-mvc-php-js-v2-phpunit-cypress/home"
     );
 
-    cy.contains("lily");
+    cy.contains("yeye");
   });
 });
 
 describe("Test 2 : les messages d'erreur s'affichent bien si l'entrée n'est pas correcte", () => {
   it("Gets, types and asserts", () => {
     cy.visit(
-      "http://localhost/MyBasics-Tests/mini-mvc-php-js-v1-phpunit/createForm"
+      "http://localhost/MyBasics-Tests/mini-mvc-php-js-v2-phpunit-cypress/createForm"
     );
 
     // Get an input, type into it
